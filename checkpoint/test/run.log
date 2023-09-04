@@ -1,0 +1,263 @@
+[2023-09-04 11:00:30] - total data:683
+[2023-09-04 11:00:32] - total data:671
+[2023-09-04 11:00:34] - total data:645
+[2023-09-04 11:00:35] - total data:643
+[2023-09-04 11:00:37] - total data:638
+[2023-09-04 11:04:07] - total data:683
+[2023-09-04 11:04:07] - Set train mode...
+[2023-09-04 11:06:52] - total data:683
+[2023-09-04 11:06:52] - Set train mode...
+[2023-09-04 11:06:54] - total data:671
+[2023-09-04 11:08:53] - total data:683
+[2023-09-04 11:08:54] - Set train mode...
+[2023-09-04 11:08:54] - Train EPOCH 1, avg Loss=8.801873 (lr=1.000e-04)
+[2023-09-04 11:08:55] - Eval mse=1.313700, Eval mae=0.726635, Eval rmse=0.991795, Eval mape=115.24%, Eval TIC=0.734504
+[2023-09-04 11:08:55] - Test mse=0.675605, Test mae=0.635523, Test rmse=0.821203, Test mape=110.82%, Test TIC=0.748128
+[2023-09-04 11:08:56] - Train EPOCH 2, avg Loss=8.585277 (lr=1.000e-04)
+[2023-09-04 11:08:56] - Eval mse=1.275061, Eval mae=0.676395, Eval rmse=0.956392, Eval mape=131.87%, Eval TIC=0.596980
+[2023-09-04 11:08:56] - Test mse=0.604522, Test mae=0.619253, Test rmse=0.775711, Test mape=123.36%, Test TIC=0.608066
+[2023-09-04 11:08:57] - Train EPOCH 3, avg Loss=8.263470 (lr=1.000e-04)
+[2023-09-04 11:08:57] - Eval mse=1.304643, Eval mae=0.677445, Eval rmse=0.956773, Eval mape=176.02%, Eval TIC=0.536259
+[2023-09-04 11:08:57] - Test mse=0.599689, Test mae=0.619933, Test rmse=0.772326, Test mape=141.78%, Test TIC=0.551599
+[2023-09-04 11:08:58] - Train EPOCH 4, avg Loss=8.215710 (lr=1.000e-04)
+[2023-09-04 11:08:58] - Eval mse=1.315605, Eval mae=0.689213, Eval rmse=0.961841, Eval mape=193.95%, Eval TIC=0.527871
+[2023-09-04 11:08:58] - Test mse=0.604556, Test mae=0.623045, Test rmse=0.775866, Test mape=148.28%, Test TIC=0.543766
+[2023-09-04 11:08:59] - Train EPOCH 5, avg Loss=8.241546 (lr=1.000e-04)
+[2023-09-04 11:08:59] - Eval mse=1.332157, Eval mae=0.702682, Eval rmse=0.971633, Eval mape=209.33%, Eval TIC=0.528030
+[2023-09-04 11:08:59] - Test mse=0.614281, Test mae=0.628166, Test rmse=0.782558, Test mape=154.19%, Test TIC=0.542650
+[2023-09-04 11:09:00] - Train EPOCH 6, avg Loss=8.188989 (lr=1.000e-04)
+[2023-09-04 11:09:00] - Eval mse=1.373071, Eval mae=0.746408, Eval rmse=1.004182, Eval mape=279.72%, Eval TIC=0.537233
+[2023-09-04 11:09:01] - Test mse=0.656793, Test mae=0.654211, Test rmse=0.809974, Test mape=182.80%, Test TIC=0.535513
+[2023-09-04 11:09:01] - Train EPOCH 7, avg Loss=8.158369 (lr=5.000e-05)
+[2023-09-04 11:09:02] - Eval mse=1.322406, Eval mae=0.697443, Eval rmse=0.963060, Eval mape=211.55%, Eval TIC=0.510247
+[2023-09-04 11:09:02] - Test mse=0.607454, Test mae=0.623842, Test rmse=0.778094, Test mape=154.89%, Test TIC=0.531197
+[2023-09-04 11:09:02] - Stop training cause no impr for 5 epochs
+[2023-09-04 11:09:02] - Training Finish! | best epoch:2
+[2023-09-04 11:09:02] - Load checkpoint from ./checkpoint/test/best.pt.tar, epoch 2
+[2023-09-04 11:09:02] - Test mse=0.604522, Test mae=0.619253, Test rmse=0.775711, Test mape=123.36%, Test TIC=0.608066
+[2023-09-04 11:09:04] - total data:671
+[2023-09-04 11:09:04] - Set train mode...
+[2023-09-04 11:09:05] - Train EPOCH 1, avg Loss=9.137715 (lr=1.000e-04)
+[2023-09-04 11:09:05] - Eval mse=1.345347, Eval mae=0.764734, Eval rmse=1.068934, Eval mape=122.95%, Eval TIC=0.808026
+[2023-09-04 11:09:06] - Test mse=0.664912, Test mae=0.636271, Test rmse=0.815377, Test mape=97.26%, Test TIC=0.723479
+[2023-09-04 11:09:07] - Train EPOCH 2, avg Loss=8.905734 (lr=1.000e-04)
+[2023-09-04 11:09:07] - Eval mse=1.338119, Eval mae=0.748150, Eval rmse=1.058580, Eval mape=148.57%, Eval TIC=0.739133
+[2023-09-04 11:09:07] - Test mse=0.582719, Test mae=0.603152, Test rmse=0.761621, Test mape=107.05%, Test TIC=0.601843
+[2023-09-04 11:09:08] - Train EPOCH 3, avg Loss=8.599869 (lr=1.000e-04)
+[2023-09-04 11:09:09] - Eval mse=1.385400, Eval mae=0.757341, Eval rmse=1.063184, Eval mape=225.14%, Eval TIC=0.664771
+[2023-09-04 11:09:09] - Test mse=0.559881, Test mae=0.590606, Test rmse=0.742683, Test mape=131.59%, Test TIC=0.525497
+[2023-09-04 11:09:10] - Train EPOCH 4, avg Loss=8.550545 (lr=1.000e-04)
+[2023-09-04 11:09:10] - Eval mse=1.422875, Eval mae=0.801558, Eval rmse=1.069649, Eval mape=329.04%, Eval TIC=0.608441
+[2023-09-04 11:09:11] - Test mse=0.610691, Test mae=0.627792, Test rmse=0.777081, Test mape=167.26%, Test TIC=0.519312
+[2023-09-04 11:09:12] - Train EPOCH 5, avg Loss=8.497798 (lr=1.000e-04)
+[2023-09-04 11:09:12] - Eval mse=1.416783, Eval mae=0.767101, Eval rmse=1.084862, Eval mape=154.55%, Eval TIC=0.705468
+[2023-09-04 11:09:12] - Test mse=0.540104, Test mae=0.582488, Test rmse=0.727814, Test mape=120.28%, Test TIC=0.516467
+[2023-09-04 11:09:13] - Train EPOCH 6, avg Loss=8.481627 (lr=1.000e-04)
+[2023-09-04 11:09:14] - Eval mse=1.415684, Eval mae=0.774736, Eval rmse=1.077005, Eval mape=207.95%, Eval TIC=0.674718
+[2023-09-04 11:09:14] - Test mse=0.548619, Test mae=0.585330, Test rmse=0.734456, Test mape=128.50%, Test TIC=0.509614
+[2023-09-04 11:09:15] - Train EPOCH 7, avg Loss=8.475434 (lr=5.000e-05)
+[2023-09-04 11:09:15] - Eval mse=1.398474, Eval mae=0.770497, Eval rmse=1.069635, Eval mape=222.83%, Eval TIC=0.662979
+[2023-09-04 11:09:15] - Test mse=0.556787, Test mae=0.588949, Test rmse=0.741456, Test mape=131.74%, Test TIC=0.516724
+[2023-09-04 11:09:15] - Stop training cause no impr for 5 epochs
+[2023-09-04 11:09:15] - Training Finish! | best epoch:2
+[2023-09-04 11:09:15] - Load checkpoint from ./checkpoint/test/best.pt.tar, epoch 2
+[2023-09-04 11:09:16] - Test mse=0.582719, Test mae=0.603152, Test rmse=0.761621, Test mape=107.05%, Test TIC=0.601843
+[2023-09-04 11:09:17] - total data:647
+[2023-09-04 11:09:18] - Set train mode...
+[2023-09-04 11:09:19] - Train EPOCH 1, avg Loss=8.954260 (lr=1.000e-04)
+[2023-09-04 11:09:20] - Eval mse=2.414000, Eval mae=1.221767, Eval rmse=1.422875, Eval mape=106.26%, Eval TIC=0.825302
+[2023-09-04 11:09:20] - Test mse=0.554464, Test mae=0.595833, Test rmse=0.734775, Test mape=99.53%, Test TIC=0.766122
+[2023-09-04 11:09:22] - Train EPOCH 2, avg Loss=8.737043 (lr=1.000e-04)
+[2023-09-04 11:09:22] - Eval mse=2.208909, Eval mae=1.160177, Eval rmse=1.381634, Eval mape=127.51%, Eval TIC=0.718411
+[2023-09-04 11:09:23] - Test mse=0.488827, Test mae=0.543817, Test rmse=0.675310, Test mape=128.82%, Test TIC=0.580153
+[2023-09-04 11:09:24] - Train EPOCH 3, avg Loss=8.430891 (lr=1.000e-04)
+[2023-09-04 11:09:25] - Eval mse=2.320825, Eval mae=1.177625, Eval rmse=1.406979, Eval mape=132.14%, Eval TIC=0.718717
+[2023-09-04 11:09:25] - Test mse=0.498127, Test mae=0.574941, Test rmse=0.694195, Test mape=124.94%, Test TIC=0.614992
+[2023-09-04 11:09:27] - Train EPOCH 4, avg Loss=8.384630 (lr=1.000e-04)
+[2023-09-04 11:09:27] - Eval mse=2.208617, Eval mae=1.153702, Eval rmse=1.385173, Eval mape=139.50%, Eval TIC=0.686345
+[2023-09-04 11:10:02] - total data:683
+[2023-09-04 11:10:03] - Set train mode...
+[2023-09-04 11:10:03] - Train EPOCH 1, avg Loss=8.801873 (lr=1.000e-04)
+[2023-09-04 11:10:04] - Eval mse=1.313700, Eval mae=0.726635, Eval rmse=0.991795, Eval mape=115.24%, Eval TIC=0.734504
+[2023-09-04 11:10:04] - Test mse=0.675605, Test mae=0.635523, Test rmse=0.821203, Test mape=110.82%, Test TIC=0.748128
+[2023-09-04 11:10:05] - Train EPOCH 2, avg Loss=8.585277 (lr=1.000e-04)
+[2023-09-04 11:10:05] - Eval mse=1.275061, Eval mae=0.676395, Eval rmse=0.956392, Eval mape=131.87%, Eval TIC=0.596980
+[2023-09-04 11:10:05] - Test mse=0.604522, Test mae=0.619253, Test rmse=0.775711, Test mape=123.36%, Test TIC=0.608066
+[2023-09-04 11:10:06] - Train EPOCH 3, avg Loss=8.263470 (lr=1.000e-04)
+[2023-09-04 11:10:06] - Eval mse=1.304643, Eval mae=0.677445, Eval rmse=0.956773, Eval mape=176.02%, Eval TIC=0.536259
+[2023-09-04 11:10:06] - Test mse=0.599689, Test mae=0.619933, Test rmse=0.772326, Test mape=141.78%, Test TIC=0.551599
+[2023-09-04 11:10:07] - Train EPOCH 4, avg Loss=8.215710 (lr=1.000e-04)
+[2023-09-04 11:10:07] - Eval mse=1.315605, Eval mae=0.689213, Eval rmse=0.961841, Eval mape=193.95%, Eval TIC=0.527871
+[2023-09-04 11:10:07] - Test mse=0.604556, Test mae=0.623045, Test rmse=0.775866, Test mape=148.28%, Test TIC=0.543766
+[2023-09-04 11:10:08] - Train EPOCH 5, avg Loss=8.241546 (lr=1.000e-04)
+[2023-09-04 11:10:08] - Eval mse=1.332157, Eval mae=0.702682, Eval rmse=0.971633, Eval mape=209.33%, Eval TIC=0.528030
+[2023-09-04 11:10:09] - Test mse=0.614281, Test mae=0.628166, Test rmse=0.782558, Test mape=154.19%, Test TIC=0.542650
+[2023-09-04 11:10:09] - Train EPOCH 6, avg Loss=8.188989 (lr=1.000e-04)
+[2023-09-04 11:10:10] - Eval mse=1.373071, Eval mae=0.746408, Eval rmse=1.004182, Eval mape=279.72%, Eval TIC=0.537233
+[2023-09-04 11:10:10] - Test mse=0.656793, Test mae=0.654211, Test rmse=0.809974, Test mape=182.80%, Test TIC=0.535513
+[2023-09-04 11:10:10] - Train EPOCH 7, avg Loss=8.158369 (lr=5.000e-05)
+[2023-09-04 11:10:11] - Eval mse=1.322406, Eval mae=0.697443, Eval rmse=0.963060, Eval mape=211.55%, Eval TIC=0.510247
+[2023-09-04 11:10:11] - Test mse=0.607454, Test mae=0.623842, Test rmse=0.778094, Test mape=154.89%, Test TIC=0.531197
+[2023-09-04 11:10:11] - Stop training cause no impr for 5 epochs
+[2023-09-04 11:10:11] - Training Finish! | best epoch:2
+[2023-09-04 11:10:11] - Load checkpoint from ./checkpoint/test/best.pt.tar, epoch 2
+[2023-09-04 11:10:11] - Test mse=0.604522, Test mae=0.619253, Test rmse=0.775711, Test mape=123.36%, Test TIC=0.608066
+[2023-09-04 11:10:13] - total data:671
+[2023-09-04 11:10:13] - Set train mode...
+[2023-09-04 11:10:14] - Train EPOCH 1, avg Loss=9.137715 (lr=1.000e-04)
+[2023-09-04 11:10:15] - Eval mse=1.345347, Eval mae=0.764734, Eval rmse=1.068934, Eval mape=122.95%, Eval TIC=0.808026
+[2023-09-04 11:10:15] - Test mse=0.664912, Test mae=0.636271, Test rmse=0.815377, Test mape=97.26%, Test TIC=0.723479
+[2023-09-04 11:10:16] - Train EPOCH 2, avg Loss=8.905734 (lr=1.000e-04)
+[2023-09-04 11:10:16] - Eval mse=1.338119, Eval mae=0.748150, Eval rmse=1.058580, Eval mape=148.57%, Eval TIC=0.739133
+[2023-09-04 11:10:16] - Test mse=0.582719, Test mae=0.603152, Test rmse=0.761621, Test mape=107.05%, Test TIC=0.601843
+[2023-09-04 11:10:17] - Train EPOCH 3, avg Loss=8.599869 (lr=1.000e-04)
+[2023-09-04 11:10:18] - Eval mse=1.385400, Eval mae=0.757341, Eval rmse=1.063184, Eval mape=225.14%, Eval TIC=0.664771
+[2023-09-04 11:10:18] - Test mse=0.559881, Test mae=0.590606, Test rmse=0.742683, Test mape=131.59%, Test TIC=0.525497
+[2023-09-04 11:10:19] - Train EPOCH 4, avg Loss=8.550545 (lr=1.000e-04)
+[2023-09-04 11:10:19] - Eval mse=1.422875, Eval mae=0.801558, Eval rmse=1.069649, Eval mape=329.04%, Eval TIC=0.608441
+[2023-09-04 11:10:20] - Test mse=0.610691, Test mae=0.627792, Test rmse=0.777081, Test mape=167.26%, Test TIC=0.519312
+[2023-09-04 11:10:21] - Train EPOCH 5, avg Loss=8.497798 (lr=1.000e-04)
+[2023-09-04 11:10:21] - Eval mse=1.416783, Eval mae=0.767101, Eval rmse=1.084862, Eval mape=154.55%, Eval TIC=0.705468
+[2023-09-04 11:10:21] - Test mse=0.540104, Test mae=0.582488, Test rmse=0.727814, Test mape=120.28%, Test TIC=0.516467
+[2023-09-04 11:10:22] - Train EPOCH 6, avg Loss=8.481627 (lr=1.000e-04)
+[2023-09-04 11:10:23] - Eval mse=1.415684, Eval mae=0.774736, Eval rmse=1.077005, Eval mape=207.95%, Eval TIC=0.674718
+[2023-09-04 11:10:23] - Test mse=0.548619, Test mae=0.585330, Test rmse=0.734456, Test mape=128.50%, Test TIC=0.509614
+[2023-09-04 11:10:24] - Train EPOCH 7, avg Loss=8.475434 (lr=5.000e-05)
+[2023-09-04 11:10:24] - Eval mse=1.398474, Eval mae=0.770497, Eval rmse=1.069635, Eval mape=222.83%, Eval TIC=0.662979
+[2023-09-04 11:10:24] - Test mse=0.556787, Test mae=0.588949, Test rmse=0.741456, Test mape=131.74%, Test TIC=0.516724
+[2023-09-04 11:10:24] - Stop training cause no impr for 5 epochs
+[2023-09-04 11:10:24] - Training Finish! | best epoch:2
+[2023-09-04 11:10:24] - Load checkpoint from ./checkpoint/test/best.pt.tar, epoch 2
+[2023-09-04 11:10:25] - Test mse=0.582719, Test mae=0.603152, Test rmse=0.761621, Test mape=107.05%, Test TIC=0.601843
+[2023-09-04 11:10:26] - total data:647
+[2023-09-04 11:10:27] - Set train mode...
+[2023-09-04 11:10:28] - Train EPOCH 1, avg Loss=8.954260 (lr=1.000e-04)
+[2023-09-04 11:10:29] - Eval mse=2.414000, Eval mae=1.221767, Eval rmse=1.422875, Eval mape=106.26%, Eval TIC=0.825302
+[2023-09-04 11:10:29] - Test mse=0.554464, Test mae=0.595833, Test rmse=0.734775, Test mape=99.53%, Test TIC=0.766122
+[2023-09-04 11:10:31] - Train EPOCH 2, avg Loss=8.737043 (lr=1.000e-04)
+[2023-09-04 11:10:31] - Eval mse=2.208909, Eval mae=1.160177, Eval rmse=1.381634, Eval mape=127.51%, Eval TIC=0.718411
+[2023-09-04 11:10:31] - Test mse=0.488827, Test mae=0.543817, Test rmse=0.675310, Test mape=128.82%, Test TIC=0.580153
+[2023-09-04 11:10:33] - Train EPOCH 3, avg Loss=8.430891 (lr=1.000e-04)
+[2023-09-04 11:10:33] - Eval mse=2.320825, Eval mae=1.177625, Eval rmse=1.406979, Eval mape=132.14%, Eval TIC=0.718717
+[2023-09-04 11:10:34] - Test mse=0.498127, Test mae=0.574941, Test rmse=0.694195, Test mape=124.94%, Test TIC=0.614992
+[2023-09-04 11:10:35] - Train EPOCH 4, avg Loss=8.384630 (lr=1.000e-04)
+[2023-09-04 11:10:36] - Eval mse=2.208617, Eval mae=1.153702, Eval rmse=1.385173, Eval mape=139.50%, Eval TIC=0.686345
+[2023-09-04 11:10:36] - Test mse=0.483381, Test mae=0.553429, Test rmse=0.675794, Test mape=137.60%, Test TIC=0.558062
+[2023-09-04 11:10:38] - Train EPOCH 5, avg Loss=8.348067 (lr=1.000e-04)
+[2023-09-04 11:10:38] - Eval mse=2.366107, Eval mae=1.192804, Eval rmse=1.419574, Eval mape=150.17%, Eval TIC=0.712734
+[2023-09-04 11:10:38] - Test mse=0.524782, Test mae=0.602731, Test rmse=0.717521, Test mape=129.66%, Test TIC=0.657671
+[2023-09-04 11:10:40] - Train EPOCH 6, avg Loss=8.329644 (lr=1.000e-04)
+[2023-09-04 11:10:40] - Eval mse=2.379173, Eval mae=1.199959, Eval rmse=1.421995, Eval mape=153.15%, Eval TIC=0.714812
+[2023-09-04 11:10:41] - Test mse=0.537736, Test mae=0.614548, Test rmse=0.727717, Test mape=133.97%, Test TIC=0.686322
+[2023-09-04 11:10:42] - Train EPOCH 7, avg Loss=8.256117 (lr=1.000e-04)
+[2023-09-04 11:10:43] - Eval mse=2.347498, Eval mae=1.191459, Eval rmse=1.414038, Eval mape=154.14%, Eval TIC=0.710861
+[2023-09-04 11:10:43] - Test mse=0.534773, Test mae=0.612470, Test rmse=0.726054, Test mape=132.88%, Test TIC=0.689232
+[2023-09-04 11:10:45] - Train EPOCH 8, avg Loss=8.246479 (lr=1.000e-04)
+[2023-09-04 11:10:45] - Eval mse=2.152263, Eval mae=1.143844, Eval rmse=1.371679, Eval mape=151.66%, Eval TIC=0.664419
+[2023-09-04 11:10:45] - Test mse=0.490161, Test mae=0.565745, Test rmse=0.684885, Test mape=140.63%, Test TIC=0.572556
+[2023-09-04 11:10:47] - Train EPOCH 9, avg Loss=8.261474 (lr=1.000e-04)
+[2023-09-04 11:10:47] - Eval mse=2.093130, Eval mae=1.128504, Eval rmse=1.356972, Eval mape=151.85%, Eval TIC=0.656017
+[2023-09-04 11:10:48] - Test mse=0.483982, Test mae=0.555164, Test rmse=0.677346, Test mape=142.31%, Test TIC=0.558129
+[2023-09-04 11:10:49] - Train EPOCH 10, avg Loss=8.602020 (lr=1.000e-04)
+[2023-09-04 11:10:50] - Eval mse=2.247212, Eval mae=1.171732, Eval rmse=1.391325, Eval mape=156.88%, Eval TIC=0.682485
+[2023-09-04 11:10:50] - Test mse=0.522927, Test mae=0.602755, Test rmse=0.716961, Test mape=129.64%, Test TIC=0.662662
+[2023-09-04 11:10:52] - Train EPOCH 11, avg Loss=8.280932 (lr=1.000e-04)
+[2023-09-04 11:10:52] - Eval mse=2.346961, Eval mae=1.198839, Eval rmse=1.422373, Eval mape=174.74%, Eval TIC=0.683125
+[2023-09-04 11:10:52] - Test mse=0.548840, Test mae=0.624372, Test rmse=0.736131, Test mape=146.71%, Test TIC=0.683620
+[2023-09-04 11:10:54] - Train EPOCH 12, avg Loss=8.256960 (lr=1.000e-04)
+[2023-09-04 11:10:54] - Eval mse=2.143479, Eval mae=1.143381, Eval rmse=1.370351, Eval mape=159.61%, Eval TIC=0.651998
+[2023-09-04 11:10:55] - Test mse=0.493944, Test mae=0.573285, Test rmse=0.690063, Test mape=139.84%, Test TIC=0.582144
+[2023-09-04 11:10:56] - Train EPOCH 13, avg Loss=8.313851 (lr=1.000e-04)
+[2023-09-04 11:10:56] - Eval mse=2.248926, Eval mae=1.172218, Eval rmse=1.392937, Eval mape=161.76%, Eval TIC=0.677051
+[2023-09-04 11:10:57] - Test mse=0.525776, Test mae=0.605960, Test rmse=0.719707, Test mape=132.31%, Test TIC=0.670930
+[2023-09-04 11:10:58] - Train EPOCH 14, avg Loss=8.213752 (lr=5.000e-05)
+[2023-09-04 11:10:59] - Eval mse=2.318003, Eval mae=1.191682, Eval rmse=1.408801, Eval mape=166.78%, Eval TIC=0.692377
+[2023-09-04 11:10:59] - Test mse=0.554391, Test mae=0.630195, Test rmse=0.741060, Test mape=142.31%, Test TIC=0.697638
+[2023-09-04 11:10:59] - Stop training cause no impr for 5 epochs
+[2023-09-04 11:10:59] - Training Finish! | best epoch:9
+[2023-09-04 11:10:59] - Load checkpoint from ./checkpoint/test/best.pt.tar, epoch 9
+[2023-09-04 11:11:00] - Test mse=0.483982, Test mae=0.555164, Test rmse=0.677346, Test mape=142.31%, Test TIC=0.558129
+[2023-09-04 11:11:01] - total data:645
+[2023-09-04 11:11:02] - Set train mode...
+[2023-09-04 11:11:03] - Train EPOCH 1, avg Loss=8.974382 (lr=1.000e-04)
+[2023-09-04 11:11:04] - Eval mse=1.710735, Eval mae=0.896545, Eval rmse=1.175474, Eval mape=116.74%, Eval TIC=0.826243
+[2023-09-04 11:11:04] - Test mse=0.638439, Test mae=0.633552, Test rmse=0.783958, Test mape=116.55%, Test TIC=0.779013
+[2023-09-04 11:11:06] - Train EPOCH 2, avg Loss=8.822460 (lr=1.000e-04)
+[2023-09-04 11:11:06] - Eval mse=1.680007, Eval mae=0.885822, Eval rmse=1.165435, Eval mape=135.40%, Eval TIC=0.754746
+[2023-09-04 11:11:06] - Test mse=0.615934, Test mae=0.624581, Test rmse=0.770762, Test mape=122.29%, Test TIC=0.709513
+[2023-09-04 11:11:08] - Train EPOCH 3, avg Loss=8.574494 (lr=1.000e-04)
+[2023-09-04 11:11:09] - Eval mse=1.696210, Eval mae=0.892650, Eval rmse=1.174131, Eval mape=145.61%, Eval TIC=0.728043
+[2023-09-04 11:11:09] - Test mse=0.611751, Test mae=0.618590, Test rmse=0.766518, Test mape=137.08%, Test TIC=0.663936
+[2023-09-04 11:11:11] - Train EPOCH 4, avg Loss=8.511756 (lr=1.000e-04)
+[2023-09-04 11:11:11] - Eval mse=1.687010, Eval mae=0.886207, Eval rmse=1.167614, Eval mape=135.62%, Eval TIC=0.749051
+[2023-09-04 11:11:11] - Test mse=0.613930, Test mae=0.623663, Test rmse=0.769029, Test mape=124.35%, Test TIC=0.698802
+[2023-09-04 11:11:13] - Train EPOCH 5, avg Loss=8.485573 (lr=1.000e-04)
+[2023-09-04 11:11:13] - Eval mse=1.690973, Eval mae=0.888281, Eval rmse=1.168552, Eval mape=151.67%, Eval TIC=0.741786
+[2023-09-04 11:11:14] - Test mse=0.628990, Test mae=0.632933, Test rmse=0.780939, Test mape=127.41%, Test TIC=0.723402
+[2023-09-04 11:11:15] - Train EPOCH 6, avg Loss=8.448028 (lr=1.000e-04)
+[2023-09-04 11:11:16] - Eval mse=1.725973, Eval mae=0.904256, Eval rmse=1.188335, Eval mape=155.20%, Eval TIC=0.729784
+[2023-09-04 11:11:16] - Test mse=0.621710, Test mae=0.616024, Test rmse=0.770910, Test mape=150.47%, Test TIC=0.650142
+[2023-09-04 11:11:18] - Train EPOCH 7, avg Loss=8.451789 (lr=5.000e-05)
+[2023-09-04 11:11:18] - Eval mse=1.691878, Eval mae=0.883810, Eval rmse=1.168971, Eval mape=135.73%, Eval TIC=0.746194
+[2023-09-04 11:11:18] - Test mse=0.612504, Test mae=0.622496, Test rmse=0.768009, Test mape=124.09%, Test TIC=0.694312
+[2023-09-04 11:11:18] - Stop training cause no impr for 5 epochs
+[2023-09-04 11:11:18] - Training Finish! | best epoch:2
+[2023-09-04 11:11:18] - Load checkpoint from ./checkpoint/test/best.pt.tar, epoch 2
+[2023-09-04 11:11:19] - Test mse=0.615934, Test mae=0.624581, Test rmse=0.770762, Test mape=122.29%, Test TIC=0.709513
+[2023-09-04 11:11:20] - total data:643
+[2023-09-04 11:11:21] - Set train mode...
+[2023-09-04 11:11:22] - Train EPOCH 1, avg Loss=8.931300 (lr=1.000e-04)
+[2023-09-04 11:11:23] - Eval mse=1.736788, Eval mae=0.906878, Eval rmse=1.178164, Eval mape=113.28%, Eval TIC=0.876539
+[2023-09-04 11:11:23] - Test mse=0.783831, Test mae=0.693861, Test rmse=0.882872, Test mape=111.80%, Test TIC=0.856681
+[2023-09-04 11:11:25] - Train EPOCH 2, avg Loss=8.758087 (lr=1.000e-04)
+[2023-09-04 11:11:25] - Eval mse=1.727349, Eval mae=0.906658, Eval rmse=1.176921, Eval mape=125.97%, Eval TIC=0.815828
+[2023-09-04 11:11:26] - Test mse=0.781706, Test mae=0.699469, Test rmse=0.881568, Test mape=122.39%, Test TIC=0.790326
+[2023-09-04 11:11:27] - Train EPOCH 3, avg Loss=8.513609 (lr=1.000e-04)
+[2023-09-04 11:11:28] - Eval mse=1.731832, Eval mae=0.906386, Eval rmse=1.178278, Eval mape=128.10%, Eval TIC=0.804517
+[2023-09-04 11:11:28] - Test mse=0.784893, Test mae=0.702850, Test rmse=0.883406, Test mape=126.12%, Test TIC=0.775270
+[2023-09-04 11:11:30] - Train EPOCH 4, avg Loss=8.451847 (lr=1.000e-04)
+[2023-09-04 11:11:30] - Eval mse=1.745303, Eval mae=0.909543, Eval rmse=1.183196, Eval mape=143.46%, Eval TIC=0.790541
+[2023-09-04 11:11:30] - Test mse=0.813348, Test mae=0.713429, Test rmse=0.899441, Test mape=139.90%, Test TIC=0.762106
+[2023-09-04 11:11:32] - Train EPOCH 5, avg Loss=8.420266 (lr=1.000e-04)
+[2023-09-04 11:11:32] - Eval mse=1.742726, Eval mae=0.906207, Eval rmse=1.181554, Eval mape=125.41%, Eval TIC=0.805364
+[2023-09-04 11:11:33] - Test mse=0.780491, Test mae=0.703617, Test rmse=0.881002, Test mape=126.79%, Test TIC=0.774064
+[2023-09-04 11:11:34] - Train EPOCH 6, avg Loss=8.452750 (lr=1.000e-04)
+[2023-09-04 11:11:35] - Eval mse=1.743571, Eval mae=0.904754, Eval rmse=1.181606, Eval mape=123.18%, Eval TIC=0.807628
+[2023-09-04 11:11:35] - Test mse=0.780855, Test mae=0.703865, Test rmse=0.881258, Test mape=126.41%, Test TIC=0.775019
+[2023-09-04 11:11:37] - Train EPOCH 7, avg Loss=8.409786 (lr=5.000e-05)
+[2023-09-04 11:11:37] - Eval mse=1.753812, Eval mae=0.911035, Eval rmse=1.187382, Eval mape=132.89%, Eval TIC=0.801911
+[2023-09-04 11:11:37] - Test mse=0.776295, Test mae=0.703277, Test rmse=0.878552, Test mape=135.25%, Test TIC=0.778561
+[2023-09-04 11:11:37] - Stop training cause no impr for 5 epochs
+[2023-09-04 11:11:37] - Training Finish! | best epoch:2
+[2023-09-04 11:11:37] - Load checkpoint from ./checkpoint/test/best.pt.tar, epoch 2
+[2023-09-04 11:11:38] - Test mse=0.781706, Test mae=0.699469, Test rmse=0.881568, Test mape=122.39%, Test TIC=0.790326
+[2023-09-04 11:11:39] - total data:638
+[2023-09-04 11:11:40] - Set train mode...
+[2023-09-04 11:11:41] - Train EPOCH 1, avg Loss=9.247844 (lr=1.000e-04)
+[2023-09-04 11:11:42] - Eval mse=1.831762, Eval mae=0.936233, Eval rmse=1.238878, Eval mape=101.01%, Eval TIC=0.934092
+[2023-09-04 11:11:42] - Test mse=0.797737, Test mae=0.645427, Test rmse=0.891860, Test mape=101.81%, Test TIC=0.938185
+[2023-09-04 11:11:44] - Train EPOCH 2, avg Loss=9.146554 (lr=1.000e-04)
+[2023-09-04 11:11:44] - Eval mse=1.820870, Eval mae=0.935519, Eval rmse=1.235753, Eval mape=111.17%, Eval TIC=0.883556
+[2023-09-04 11:11:45] - Test mse=0.792728, Test mae=0.643699, Test rmse=0.889118, Test mape=111.96%, Test TIC=0.889225
+[2023-09-04 11:11:46] - Train EPOCH 3, avg Loss=8.889915 (lr=1.000e-04)
+[2023-09-04 11:11:47] - Eval mse=1.818667, Eval mae=0.934565, Eval rmse=1.235103, Eval mape=109.43%, Eval TIC=0.859356
+[2023-09-04 11:11:47] - Test mse=0.789214, Test mae=0.643423, Test rmse=0.887136, Test mape=111.73%, Test TIC=0.865325
+[2023-09-04 11:11:49] - Train EPOCH 4, avg Loss=8.809618 (lr=1.000e-04)
+[2023-09-04 11:11:49] - Eval mse=1.821205, Eval mae=0.935133, Eval rmse=1.236142, Eval mape=113.49%, Eval TIC=0.847715
+[2023-09-04 11:11:49] - Test mse=0.789787, Test mae=0.644908, Test rmse=0.887441, Test mape=113.06%, Test TIC=0.850908
+[2023-09-04 11:11:51] - Train EPOCH 5, avg Loss=8.782560 (lr=1.000e-04)
+[2023-09-04 11:11:51] - Eval mse=1.822151, Eval mae=0.934553, Eval rmse=1.236059, Eval mape=111.06%, Eval TIC=0.846295
+[2023-09-04 11:11:52] - Test mse=0.788764, Test mae=0.643424, Test rmse=0.886941, Test mape=114.45%, Test TIC=0.851559
+[2023-09-04 11:11:53] - Train EPOCH 6, avg Loss=8.765967 (lr=1.000e-04)
+[2023-09-04 11:11:53] - Eval mse=1.824942, Eval mae=0.934937, Eval rmse=1.236748, Eval mape=110.32%, Eval TIC=0.850735
+[2023-09-04 11:11:54] - Test mse=0.789255, Test mae=0.643893, Test rmse=0.887186, Test mape=111.25%, Test TIC=0.854365
+[2023-09-04 11:11:55] - Train EPOCH 7, avg Loss=8.746149 (lr=1.000e-04)
+[2023-09-04 11:11:56] - Eval mse=1.831782, Eval mae=0.937798, Eval rmse=1.239493, Eval mape=117.91%, Eval TIC=0.841595
+[2023-09-04 11:11:56] - Test mse=0.792903, Test mae=0.646774, Test rmse=0.889226, Test mape=119.98%, Test TIC=0.843197
+[2023-09-04 11:11:58] - Train EPOCH 8, avg Loss=8.746199 (lr=5.000e-05)
+[2023-09-04 11:11:58] - Eval mse=1.827954, Eval mae=0.934815, Eval rmse=1.237415, Eval mape=108.49%, Eval TIC=0.846640
+[2023-09-04 11:11:59] - Test mse=0.789089, Test mae=0.643322, Test rmse=0.887141, Test mape=111.16%, Test TIC=0.851270
+[2023-09-04 11:11:59] - Stop training cause no impr for 5 epochs
+[2023-09-04 11:11:59] - Training Finish! | best epoch:3
+[2023-09-04 11:11:59] - Load checkpoint from ./checkpoint/test/best.pt.tar, epoch 3
+[2023-09-04 11:11:59] - Test mse=0.789214, Test mae=0.643423, Test rmse=0.887136, Test mape=111.73%, Test TIC=0.865325

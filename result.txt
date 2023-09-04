@@ -1,0 +1,24 @@
+LSTM_M_sl24_pl1  
+mse_mean:0.604522188504537, mae_mean:0.6192527612050375, rmse_mean:0.7757112979888916
+mse_std:0.0, mae_std:0.0, rmse_std:0.0
+
+LSTM_M_sl36_pl1  
+mse_mean:0.5827192862828573, mae_mean:0.6031517187754313, rmse_mean:0.7616209189097086
+mse_std:0.0, mae_std:0.0, rmse_std:0.0
+
+LSTM_M_sl60_pl1  
+mse_mean:0.48398152987162274, mae_mean:0.5551642576853434, rmse_mean:0.6773461500803629
+mse_std:0.0, mae_std:0.0, rmse_std:0.0
+
+LSTM_M_sl60_pl3  
+mse_mean:0.6159343719482422, mae_mean:0.6245810190836588, rmse_mean:0.7707622845967611
+mse_std:0.0, mae_std:0.0, rmse_std:0.0
+
+LSTM_M_sl60_pl5  
+mse_mean:0.7817055384318033, mae_mean:0.6994686921437582, rmse_mean:0.8815678755442301
+mse_std:0.0, mae_std:0.0, rmse_std:0.0
+
+LSTM_M_sl60_pl10  
+mse_mean:0.7892137765884399, mae_mean:0.6434234976768494, rmse_mean:0.8871355652809143
+mse_std:0.0, mae_std:0.0, rmse_std:0.0
+
