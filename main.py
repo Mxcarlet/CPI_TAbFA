@@ -132,8 +132,7 @@ class Trainer(object):
 
                 pprint('Train EPOCH {:d}, avg Loss={:.6f} (lr={:.3e})'.format( self.cur_epoch, t_loss / (step+1),self.optimizer.param_groups[0]["lr"]))
 
-                t_loss = 0
-                mses, maes, rmses, mapes, tics= 0,0,0,0,0
+                t_loss,scores = 0,[]
                 self.nnet.eval()
                 with th.no_grad():
                     for step, (target, st_s, target_label) in enumerate(self.val_loader):
@@ -142,39 +141,28 @@ class Trainer(object):
                         val_target_label = target_label.to(self.device)
                         loss, out = self.nnet(val_target, val_st_s_embedding, val_target_label)
 
-                        mse, mae, rmse, mape, tic= metric(out, val_target_label)
-                        mses += mse
-                        maes += mae
-                        rmses += rmse
-                        mapes += mape
-                        tics += tic
-
                         t_loss += loss
 
-                pprint('Eval mse={:.6f}, Eval mae={:.6f}, Eval rmse={:.6f}, Eval mape={:.2f}%, Eval TIC={:.6f}'.
-                       format(mses/(step+1), maes/(step+1), rmses/(step+1), mapes/(step+1), tics/(step+1)))
-                score = mses/(step+1)
+                        scores.append(metric(out.cpu(), target_label.cpu())[0])
+
+                avg_loss = t_loss / (step + 1)
+                pprint('Eval EPOCH {:d}, avg Loss={:.6f}'.format(self.cur_epoch, avg_loss))
+                score = np.average(scores)
+
 
                 self.nnet.eval()
-                mses, maes, rmses, mapes, tics= 0, 0, 0, 0, 0
+                t_loss = 0
                 with th.no_grad():
                     for step, (target, st_s, target_label) in enumerate(self.test_loader):
                         test_target = target.to(self.device)
                         test_st_s_embedding = st_s.to(self.device)
                         test_target_label = target_label.to(self.device)
-                        _, out = self.nnet(test_target, test_st_s_embedding, test_target_label)
+                        loss, out = self.nnet(test_target, test_st_s_embedding, test_target_label)
 
-                        mse, mae, rmse, mape, tic= metric(out, test_target_label)
-                        mses += mse
-                        maes += mae
-                        rmses += rmse
-                        mapes += mape
-                        tics += tic
+                        t_loss += loss
 
-
-                pprint(
-                    'Test mse={:.6f}, Test mae={:.6f}, Test rmse={:.6f}, Test mape={:.2f}%, Test TIC={:.6f}'.
-                        format(mses / (step+1), maes / (step+1), rmses / (step+1), mapes/(step+1), tics/(step+1)))
+                avg_loss = t_loss / (step + 1)
+                pprint('Test EPOCH {:d}, avg Loss={:.6f}'.format(self.cur_epoch, avg_loss))
 
                 if score > self.best_score:
                     self.no_impr += 1
@@ -201,7 +189,8 @@ class Trainer(object):
             self.nnet.load_state_dict(cpt["model_state_dict"])
             pprint("Load checkpoint from {}, epoch {:d}".format(self.checkpoint+'/best.pt.tar', cpt["epoch"]))
             self.nnet.eval()
-            mses, maes, rmses, mapes, tics = 0, 0, 0, 0, 0
+            preds = []
+            trues = []
 
             with th.no_grad():
                 for step, (target, st_s, target_label) in enumerate(self.test_loader):
@@ -210,21 +199,18 @@ class Trainer(object):
                     test_target_label = target_label.to(self.device)
                     _, out = self.nnet(test_target, test_st_s_embedding, test_target_label)
 
-                    mse, mae, rmse, mape, tic = metric(out, test_target_label)
-                    mses += mse
-                    maes += mae
-                    rmses += rmse
-                    mapes += mape
-                    tics += tic
-
+                    preds.append(out.detach().cpu())
+                    trues.append(test_target_label.detach().cpu())
+            preds = th.cat(preds, 0)
+            trues = th.cat(trues, 0)
+            mse_n, mae_n, rmse_n, mape_n, tic_n = metric(preds, trues)
             pprint(
                 'Test mse={:.6f}, Test mae={:.6f}, Test rmse={:.6f}, Test mape={:.2f}%, Test TIC={:.6f}'.
-                    format(mses / (step + 1), maes / (step + 1), rmses / (step + 1), mapes / (step + 1),
-                           tics / (step + 1)))
+                    format(mse_n, mae_n, rmse_n, mape_n, tic_n))
 
 
 
-        return mses.item()/(step+1), maes.item()/(step+1), rmses.item()/(step+1), mapes.item()/(step+1), tics.item() / (step + 1)
+        return mse_n, mae_n, rmse_n, mape_n, tic_n
 
 def data_split(full_list, ratio1, ratio2, shuffle=False):
     n_total = len(full_list)
