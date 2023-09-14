@@ -209,7 +209,6 @@ class Trainer(object):
                     format(mse_n, mae_n, rmse_n, mape_n, tic_n))
 
 
-
         return mse_n, mae_n, rmse_n, mape_n, tic_n
 
 def data_split(full_list, ratio1, ratio2, shuffle=False):

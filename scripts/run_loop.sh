@@ -26,7 +26,7 @@ done
 for seq_len in 60
 do
 
-for preLen in 3 5 10
+for preLen in 3 6 12
 do
 
 python -u main.py \
