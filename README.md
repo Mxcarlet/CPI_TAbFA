@@ -1,8 +1,8 @@
-# TAbFA: Time Alignment before Feature Alignment in Multimodal Inflation Prediction
+# TAbFA:
 
-## How to run this project:
+## Quick Start:
 ```bash
 1. cd ./scripts
 2. sh run_loop.sh
 ```
-# You can check the results at result.txt
+> You can check the results at `result.txt`
